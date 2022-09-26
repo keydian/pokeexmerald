@@ -320,6 +320,7 @@
 #define ITEM_ROOT_FOSSIL 286
 #define ITEM_CLAW_FOSSIL 287
 #define ITEM_DEVON_SCOPE 288
+#define ITEM_INFINITE_CANDY 377
 
 // TMs/HMs
 #define ITEM_TM01 289
@@ -476,7 +477,7 @@
 #define ITEM_MAGMA_EMBLEM 375
 #define ITEM_OLD_SEA_MAP 376
 
-#define ITEMS_COUNT 377
+#define ITEMS_COUNT 378
 #define ITEM_FIELD_ARROW ITEMS_COUNT
 
 // Range of berries given out by various NPCS

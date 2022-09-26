@@ -309,6 +309,7 @@ const u32 *const gItemIconTable[][2] =
     [ITEM_ROOT_FOSSIL] = {gItemIcon_RootFossil, gItemIconPalette_HoennFossil},
     [ITEM_CLAW_FOSSIL] = {gItemIcon_ClawFossil, gItemIconPalette_HoennFossil},
     [ITEM_DEVON_SCOPE] = {gItemIcon_DevonScope, gItemIconPalette_DevonScope},
+    [ITEM_INFINITE_CANDY] = {gItemIcon_RareCandy, gItemIconPalette_RareCandy},
     // TMs / HMs
     [ITEM_TM01] = {gItemIcon_TM, gItemIconPalette_FightingTMHM},
     [ITEM_TM02] = {gItemIcon_TM, gItemIconPalette_DragonTMHM},
@@ -398,6 +399,7 @@ const u32 *const gItemIconTable[][2] =
     [ITEM_POWDER_JAR] = {gItemIcon_PowderJar, gItemIconPalette_PowderJar},
     [ITEM_RUBY] = {gItemIcon_Gem, gItemIconPalette_Ruby},
     [ITEM_SAPPHIRE] = {gItemIcon_Gem, gItemIconPalette_Sapphire},
+
     // Emerald-only key items
     [ITEM_MAGMA_EMBLEM] = {gItemIcon_MagmaEmblem, gItemIconPalette_MagmaEmblem},
     [ITEM_OLD_SEA_MAP] = {gItemIcon_OldSeaMap, gItemIconPalette_OldSeaMap},

@@ -904,6 +904,8 @@ LittlerootTown_EventScript_GiveRunningShoes::
 	waitfanfare
 	setflag FLAG_RECEIVED_RUNNING_SHOES
 	msgbox LittlerootTown_Text_ExplainRunningShoes, MSGBOX_DEFAULT
+	msgbox LittlerootTown_Text_InfiniteCandy, MSGBOX_DEFAULT
+	giveitem ITEM_INFINITE_CANDY
 	msgbox LittlerootTown_Text_ComeHomeIfAnythingHappens, MSGBOX_DEFAULT
 	closemessage
 	delay 30
@@ -946,6 +948,10 @@ LittlerootTown_Text_ExplainRunningShoes:
 	.string "RUNNING SHOES to run extra-fast!\p"
 	.string "“Slip on these RUNNING SHOES and race\n"
 	.string "in the great outdoors!”$"
+
+LittlerootTown_Text_InfiniteCandy:
+    .string "MOM: This INFI CANDY will be useful for\n"
+    .string "you to raise your POKéMON.$"
 
 LittlerootTown_Text_ComeHomeIfAnythingHappens:
 	.string "… … … … … … … …\n"

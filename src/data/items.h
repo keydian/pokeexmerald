@@ -4537,4 +4537,16 @@ const struct Item gItems[] =
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },
+    [ITEM_INFINITE_CANDY] =
+    {
+        .name = _("INFI CANDY"),
+        .itemId = ITEM_INFINITE_CANDY,
+        .price = 0,
+        .description = sInfiniteCandyDesc,
+        .importance = 0,
+        .registrability = TRUE,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_RareCandy,
+    },
 };

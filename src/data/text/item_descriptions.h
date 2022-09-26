@@ -1116,6 +1116,12 @@ static const u8 sDevonScopeDesc[] = _(
     "that signals any\n"
     "unseeable POKéMON.");
 
+static const u8 sInfiniteCandyDesc[] = _(
+        "Raises the level\n"
+        "of your POKéMON\n"
+        "by one. Infinite."
+        );
+
 // TMs/HMs
 static const u8 sTM01Desc[] = _(
     "Powerful, but makes\n"
